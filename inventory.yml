@@ -1,0 +1,6 @@
+all:
+  hosts:
+    target1:
+      ansible_host: 172.31.91.187
+      ansible_user: ubuntu
+      ansible_ssh_private_key_file: tar.pem
