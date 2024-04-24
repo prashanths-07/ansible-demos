@@ -1,0 +1,6 @@
+
+# How to use this 
+
+eg1:
+
+ansible target1 -m ping -i inventory
