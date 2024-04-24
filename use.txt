@@ -4,3 +4,25 @@
 eg1:
 
 ansible target1 -m ping -i inventory
+
+eg2:
+
+ansible first_group -m ping -i inventory
+
+eg3:
+
+
+ansible all -m ping -i inventory
+
+eg4:
+
+
+ansible "*" -m ping -i inventory
+
+eg5:
+
+
+ansible "tar*" -m ping -i inventory
+
+
+
