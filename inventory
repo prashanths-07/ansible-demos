@@ -1,0 +1,19 @@
+all:
+  hosts:
+    target1:
+      ansible_host: 172.31.91.187
+    
+    target2:
+      ansible_host: xxx.xxx.xxx.xxx
+
+  children:
+    first_group:
+      hosts:
+        target1
+
+    second_group:
+      hosts:
+        target2
+    vars:
+      ansible_user: ubuntu
+      ansible_ssh_private_key_file: tar.pem
