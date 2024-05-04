@@ -1,0 +1,6 @@
+---
+- name: Provisioning servers
+  hosts: target1
+  become: yes
+  roles:
+    - post-install
